@@ -1,0 +1,107 @@
+2024-09-24 22:20:00 - app_logger - INFO - Preprocessing complete. 4817 entries remain.
+2024-09-24 22:20:00 - app_logger - INFO - Crawling completed successfully!
+2024-09-24 22:20:21 - app_logger - INFO - Database already contains 4844 records. Skipping chunking and preprocessing.
+2024-09-24 22:20:21 - app_logger - INFO - Initializing Retrieval class
+2024-09-24 22:21:16 - app_logger - INFO - Data processed and stored in the database.
+2024-09-24 22:23:41 - app_logger - INFO - Generating keywords for question
+2024-09-24 22:23:42 - app_logger - INFO - Generated keywords: ['Langchain', 'Chains', 'LLaMA']
+2024-09-24 22:23:44 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-24 22:23:57 - app_logger - INFO - Reranking the results
+2024-09-24 22:23:59 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-24 22:23:59 - app_logger - INFO - Generating answers from LLM
+2024-09-25 00:17:32 - app_logger - INFO - Generating keywords for question
+2024-09-25 00:17:32 - app_logger - INFO - Generated keywords: ['LLM Application Lifecycle', 'Large Language Model Deployment', 'AI Model Management']
+2024-09-25 00:17:32 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 00:17:40 - app_logger - INFO - Reranking the results
+2024-09-25 00:17:45 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 00:17:45 - app_logger - INFO - Generating answers from LLM
+2024-09-25 00:23:54 - app_logger - INFO - Initialized Groq AI
+2024-09-25 00:25:04 - app_logger - INFO - Initialized Groq AI
+2024-09-25 00:31:00 - app_logger - INFO - Initialized Groq AI
+2024-09-25 00:33:08 - app_logger - INFO - Table 'company_docs' is ready.
+2024-09-25 00:33:08 - app_logger - INFO - Spider is running for: https://python.langchain.com/v0.2/docs/ and for depth: 3
+2024-09-25 00:33:08 - app_logger - INFO - Preprocessing complete. 4817 entries remain.
+2024-09-25 00:33:08 - app_logger - INFO - Crawling completed successfully!
+2024-09-25 00:58:49 - app_logger - INFO - Database already contains 4844 records. Skipping chunking and preprocessing.
+2024-09-25 00:58:49 - app_logger - INFO - Initializing Retrieval class
+2024-09-25 01:00:21 - app_logger - INFO - Data processed and stored in the database.
+2024-09-25 01:34:33 - app_logger - INFO - Generating keywords for question
+2024-09-25 01:34:35 - app_logger - INFO - Generated keywords: ['Pipelines', 'Chain', 'Sequence']
+2024-09-25 01:34:39 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 01:34:54 - app_logger - INFO - Reranking the results
+2024-09-25 01:34:59 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 01:34:59 - app_logger - INFO - Generating answers from LLM
+2024-09-25 01:35:37 - app_logger - INFO - Generating keywords for question
+2024-09-25 01:35:39 - app_logger - INFO - Generated keywords: ['LangServe', 'LangChain', 'Server']
+2024-09-25 01:35:39 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 01:35:43 - app_logger - INFO - Reranking the results
+2024-09-25 01:35:49 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 01:35:49 - app_logger - INFO - Generating answers from LLM
+2024-09-25 01:36:06 - app_logger - INFO - Generating keywords for question
+2024-09-25 01:36:06 - app_logger - INFO - Generated keywords: ['LangServe', 'LangChain Tutorial', 'Python Code Example']
+2024-09-25 01:36:06 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 01:36:15 - app_logger - INFO - Reranking the results
+2024-09-25 01:36:19 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 01:36:19 - app_logger - INFO - Generating answers from LLM
+2024-09-25 01:37:12 - app_logger - INFO - Generating keywords for question
+2024-09-25 01:37:12 - app_logger - INFO - Generated keywords: ['LangGraph', 'Code Tutorial', 'Getting Started']
+2024-09-25 01:37:12 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 01:37:20 - app_logger - INFO - Reranking the results
+2024-09-25 01:37:25 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 01:37:25 - app_logger - INFO - Generating answers from LLM
+2024-09-25 01:40:04 - app_logger - INFO - Generating keywords for question
+2024-09-25 01:40:07 - app_logger - INFO - Generated keywords: ['LangGraph', 'Graph', 'Knowledge Graph']
+2024-09-25 01:40:07 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 01:40:11 - app_logger - INFO - Reranking the results
+2024-09-25 01:40:14 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 01:40:14 - app_logger - INFO - Generating answers from LLM
+2024-09-25 09:18:51 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:18:56 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:19:43 - app_logger - INFO - Table 'company_docs' is ready.
+2024-09-25 09:19:43 - app_logger - INFO - Spider is running for: https://python.langchain.com/docs/ and for depth: 3
+2024-09-25 09:19:43 - app_logger - INFO - Preprocessing complete. 4817 entries remain.
+2024-09-25 09:19:43 - app_logger - INFO - Crawling completed successfully!
+2024-09-25 09:19:50 - app_logger - INFO - Database already contains 4844 records. Skipping chunking and preprocessing.
+2024-09-25 09:19:50 - app_logger - INFO - Initializing Retrieval class
+2024-09-25 09:21:14 - app_logger - INFO - Data processed and stored in the database.
+2024-09-25 09:21:42 - app_logger - INFO - Generating keywords for question
+2024-09-25 09:21:43 - app_logger - INFO - Generated keywords: ['Langchain', 'Getting Started', 'Installation']
+2024-09-25 09:21:46 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 09:22:10 - app_logger - INFO - Reranking the results
+2024-09-25 09:22:13 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 09:22:13 - app_logger - INFO - Generating answers from LLM
+2024-09-25 09:37:49 - app_logger - INFO - Generating keywords for question
+2024-09-25 09:37:49 - app_logger - INFO - Generated keywords: ['Rerank', 'Reranking', 'Langchain Rerank']
+2024-09-25 09:37:49 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 09:37:58 - app_logger - INFO - Reranking the results
+2024-09-25 09:38:03 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 09:38:03 - app_logger - INFO - Generating answers from LLM
+2024-09-25 09:43:26 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:43:31 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:44:52 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:44:57 - app_logger - INFO - Initialized Groq AI
+2024-09-25 09:45:50 - app_logger - INFO - Table 'company_docs' is ready.
+2024-09-25 09:45:50 - app_logger - INFO - Spider is running for: https://python.langchain.com/docs/introduction/ and for depth: 3
+2024-09-25 09:45:50 - app_logger - INFO - Preprocessing complete. 4817 entries remain.
+2024-09-25 09:45:50 - app_logger - INFO - Crawling completed successfully!
+2024-09-25 09:46:00 - app_logger - INFO - Database already contains 4844 records. Skipping chunking and preprocessing.
+2024-09-25 09:46:00 - app_logger - INFO - Initializing Retrieval class
+2024-09-25 09:47:24 - app_logger - INFO - Data processed and stored in the database.
+2024-09-25 09:47:32 - app_logger - INFO - Generating keywords for question
+2024-09-25 09:47:32 - app_logger - INFO - Generated keywords: ['Chain Creation', 'Langchain Tutorial', 'Code Example']
+2024-09-25 09:47:35 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 09:47:43 - app_logger - INFO - Reranking the results
+2024-09-25 09:47:47 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 09:47:47 - app_logger - INFO - Generating answers from LLM
+2024-09-25 09:54:05 - app_logger - INFO - Generating keywords for question
+2024-09-25 09:54:06 - app_logger - INFO - Generated keywords: ['Custom Agents', 'Agent Development', 'Agent Creation']
+2024-09-25 09:54:06 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 09:54:29 - app_logger - INFO - Reranking the results
+2024-09-25 09:54:36 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 09:54:36 - app_logger - INFO - Generating answers from LLM
+2024-09-25 10:26:11 - app_logger - INFO - Generating keywords for question
+2024-09-25 10:26:12 - app_logger - INFO - Generated keywords: ['Agents', 'Agent Creation', 'Agent Development']
+2024-09-25 10:26:12 - app_logger - INFO - Retrieving results from BM25 and FAISS
+2024-09-25 10:26:31 - app_logger - INFO - Reranking the results
+2024-09-25 10:26:34 - app_logger - INFO - Retrieved and reranked 50 results
+2024-09-25 10:26:34 - app_logger - INFO - Generating answers from LLM

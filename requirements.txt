@@ -1,0 +1,12 @@
+scrapy
+rank-bm25
+beautifulsoup4
+numpy
+scikit-learn
+sentence-transformers
+torch
+streamlit
+llama-index
+python-dotenv
+nltk
+llama-index-llms-groq
