@@ -49,7 +49,7 @@ After the initial retrieval, the results are reranked using a cross-encoder mode
 ### Running the Application
 1. Start the Flask server:
    ```bash
-   python final_app/main.py
+   python main.py
    ```
 
 2. Open your web browser and navigate to `http://127.0.0.1:5000`.
