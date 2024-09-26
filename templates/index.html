@@ -252,12 +252,23 @@
                 font-size: 0.7rem;
             }
         }
+        #message-container {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            width: 80%;
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
     <button id="sidebar-toggle" class="sidebar-toggle">
         <i class="fas fa-bars"></i>
     </button>
+    <!-- Add this new container for messages -->
+    <div id="message-container"></div>
     <div class="container">
         <aside id="sidebar" class="sidebar">
             <h2><i class="fas fa-chart-line icon"></i>Status and Progress</h2>
@@ -313,7 +324,7 @@
                     <button id="clear-btn"><i class="fas fa-broom icon"></i>Clear Database</button>
                 </div>
 
-                <div id="message" class="message" style="display: none;"></div>
+                <!-- <div id="message" class="message" style="display: none;"></div> -->
             </div>
         </main>
     </div>
@@ -356,11 +367,13 @@
         };
 
         const setMessage = (message, isError = false) => {
+            const messageContainer = document.getElementById('message-container');
+            const messageElement = document.createElement('div');
             messageElement.textContent = message;
-            messageElement.style.display = 'block';
             messageElement.className = isError ? 'message error' : 'message success';
+            messageContainer.appendChild(messageElement);
             setTimeout(() => {
-                messageElement.style.display = 'none';
+                messageContainer.removeChild(messageElement);
             }, 5000);
         };
 
@@ -476,7 +489,7 @@
                 result.documents.forEach(doc => {
                     const accordion = document.createElement('button');
                     accordion.className = 'accordion';
-                    accordion.innerHTML = `<i class="fas fa-file icon"></i>Document ID: ${doc.id}`;
+                    accordion.innerHTML = `<i class="fas fa-file icon"></i>Document ID: ${doc.id} (Score: ${doc.score.toFixed(4)})`;
                     
                     const panel = document.createElement('div');
                     panel.className = 'panel';
@@ -484,7 +497,6 @@
                         <p><strong>Title:</strong> ${doc.title}</p>
                         <p><strong>URL:</strong> <a href="${doc.url}" target="_blank">${doc.url}</a></p>
                         <p><strong>Content:</strong> ${doc.content}</p>
-                        <p><strong>Score:</strong> ${doc.score.toFixed(4)}</p>
                     `;
                     
                     docsContainer.appendChild(accordion);
