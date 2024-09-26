@@ -63,5 +63,10 @@ After the initial retrieval, the results are reranked using a cross-encoder mode
 ## Conclusion
 The DocQA System integrates advanced AI techniques to provide a robust solution for retrieving and answering questions based on documentation. By combining web crawling, hybrid search, and contextual answering, it offers users a powerful tool for information retrieval.
 
+## Video Overview
+You can watch a brief usage of the DocQA System in the video below:
+
+![DocQA System Overview](file:sample_video.mp4)
+
 
 
