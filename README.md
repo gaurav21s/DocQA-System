@@ -60,13 +60,33 @@ After the initial retrieval, the results are reranked using a cross-encoder mode
 - **Ask Questions**: Use the `/ask` endpoint to submit questions and receive answers based on the crawled documentation.
 - **Clear Database**: Use the `/clear` endpoint to reset the database and remove all stored data.
 
+## Visual Overview
+
+```mermaid
+graph TD
+    A[("🌐 Start")] --> B["📋 User Interface"]
+    B -->|"URL + Depth"| C["🕷️ Web Crawler"]
+    C -->|"Raw Data"| D["🔧 Data Handler"]
+    D -->|"Processed Data"| E[("💾 Database")]
+    B -->|"User Query"| F["🧠 LLMAssistant"]
+    F -->|"Keywords+Query"| G["🔍 Retriever"]
+    G -->|"Hybrid Search"| E
+    G -->|"Top Results as Context"| F
+    F -->|"Generated Answer"| B
+    B -->|"Clear DB"| H["🗑️ Data Cleaner"]
+    H --> E
+
+    style A fill:#ffd54f,stroke:#333,stroke-width:2px
+    style B fill:#81c784,stroke:#333,stroke-width:2px
+    style C fill:#ff8a80,stroke:#333,stroke-width:2px
+    style D fill:#64b5f6,stroke:#333,stroke-width:2px
+    style E fill:#ba68c8,stroke:#333,stroke-width:2px
+    style F fill:#ffb74d,stroke:#333,stroke-width:2px
+    style G fill:#aed581,stroke:#333,stroke-width:2px
+    style H fill:#e57373,stroke:#333,stroke-width:2px
+
+    classDef default font-weight:bold,font-size:12px,fill:#ffffff,color:#333;
+```
+
 ## Conclusion
 The DocQA System integrates advanced AI techniques to provide a robust solution for retrieving and answering questions based on documentation. By combining web crawling, hybrid search, and contextual answering, it offers users a powerful tool for information retrieval.
-
-## Video Overview
-You can watch a brief usage of the DocQA System in the video below:
-
-![DocQA System Overview](file:sample_video.mp4)
-
-
-
